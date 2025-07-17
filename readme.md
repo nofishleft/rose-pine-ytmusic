@@ -27,7 +27,8 @@
 
 ## Contributing
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
+* [sass](https://sass-lang.com/install/)
+* [bloom](https://github.com/rose-pine/rose-pine-bloom)
 
 Modify `src/_template.scss` using Rosé Pine variables, then build variants:
 
