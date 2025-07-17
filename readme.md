@@ -19,7 +19,9 @@
 
 ## Gallery
 
-![Rosé Pine with YouTube Music](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+![Rosé Pine with YouTube Music](https://raw.githubusercontent.com/nofishleft/rose-pine-ytmusic/4b7fd0bb68babfd28f8f538055f85429d378d3b9/2025-07-17-150534_hyprshot.png)
+
+![Rosé Pine with YouTube Music](https://raw.githubusercontent.com/nofishleft/rose-pine-ytmusic/4b7fd0bb68babfd28f8f538055f85429d378d3b9/2025-07-17-150550_hyprshot.png)
 
 ## Thanks to
 
