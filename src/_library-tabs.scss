@@ -1,15 +1,15 @@
 /* Horizontal tabs e.g.: Library, Downloads */
 /* When scrolling down, and it pins to top  */
 ytmusic-tabs.stuck {
-    background: var(--rose-pine-surface) !important;
+    background: $surface !important;
 }
 
 ytmusic-tabs > .tab-container {
     yt-formatted-string.tab:not(.selected) {
-        color: var(--rose-pine-subtle) !important;
+        color: $subtle !important;
     }
 
     yt-formatted-string.tab.selected {
-        color: var(--rose-pine-text) !important;
+        color: $text !important;
     }
 }

@@ -2,16 +2,16 @@
 
 .av-toggle.ytmusic-av-toggle {
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    background-color: var(--rose-pine-base) !important;
+    background-color: $base !important;
 }
 
 .song-button.ytmusic-av-toggle,
 .video-button.ytmusic-av-toggle {
-    background-color: var(--rose-pine-base) !important;
-    color: var(--rose-pine-subtle) !important;
+    background-color: $base !important;
+    color: $subtle !important;
 }
 .song-button.ytmusic-av-toggle[aria-pressed="true"],
 .video-button.ytmusic-av-toggle[aria-pressed="true"] {
-    background-color: var(--rose-pine-overlay) !important;
-    color: var(--rose-pine-text) !important;
+    background-color: $overlay !important;
+    color: $text !important;
 }

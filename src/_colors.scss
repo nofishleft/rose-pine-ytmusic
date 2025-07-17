@@ -5,7 +5,7 @@ html:not(.style-scope) {
     --cust-ytmusic-dark-background: #{$base}; /*#221d2b;*/
     --cust-ytmusic-dark-foreground: #{$overlay}; /*#2e263a;*/
 
-    --cust-ytmusic-light-text-1: #{text}; /*#e2e1dd;*/
+    --cust-ytmusic-light-text-1: #{$text}; /*#e2e1dd;*/
     --cust-ytmusic-light-2: color-mix(
         in srgb,
         #{$text} 90%,
