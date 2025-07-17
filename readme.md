@@ -29,6 +29,7 @@
 
 ## Contributing
 
+Requires sass & rose-pine-bloom:
 * [sass](https://sass-lang.com/install/)
 * [bloom](https://github.com/rose-pine/rose-pine-bloom)
 
