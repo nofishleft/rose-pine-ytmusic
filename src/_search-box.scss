@@ -1,0 +1,22 @@
+ytmusic-search-box .ytmusic-search-box {
+    fill: $muted !important;
+    color: $muted !important;
+    background-color: transparent !important;
+}
+ytmusic-search-box[opened] .ytmusic-search-box {
+    fill: $text !important;
+    color: $text !important;
+    background-color: $overlay !important;
+}
+
+ytmusic-search-suggestion {
+    color: $subtle !important;
+    fill: $text !important;
+    background-color: $overlay !important;
+}
+
+ytmusic-search-suggestion:hover {
+    color: $text !important;
+    fill: $text !important;
+    background-color: rgba(255, 2555, 255, 0.1) !important;
+}

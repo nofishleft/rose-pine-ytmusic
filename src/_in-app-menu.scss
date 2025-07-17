@@ -1,0 +1,62 @@
+body > nav[data-ytmd-main-panel] {
+    background: $surface !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: var(--ytmusic-text-primary) !important;
+    padding: 0;
+
+    button {
+        padding: 4px;
+        height: 100%;
+        width: 32px;
+
+        svg {
+            stroke: var(--ytmusic-text-primary) !important;
+            stroke-width: 1px !important;
+            fill: var(--ytmusic-text-primary) !important;
+        }
+    }
+
+    li {
+        color: var(--ytmusic-text-primary) !important;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 4px;
+        border-radius: 0;
+    }
+}
+
+body > div > ul[data-ytmd-sub-panel="true"] {
+    background: $overlay !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 2px !important;
+    color: var(--ytmusic-text-primary) !important;
+    padding-left: 0;
+    padding-right: 0;
+
+    hr {
+        height: 1px !important;
+        color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    li {
+        height: 48px;
+        border-radius: 0;
+
+        svg {
+            color: var(--ytmusic-text-primary) !important;
+        }
+
+        span {
+            color: var(--ytmusic-text-primary) !important;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    li[data-selected="false"]:hover {
+        background-color: rgba(255, 2555, 255, 0.05) !important;
+    }
+    li[data-selected="true"] {
+        background-color: rgba(255, 2555, 255, 0.1) !important;
+    }
+}

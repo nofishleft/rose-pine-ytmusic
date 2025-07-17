@@ -1,0 +1,131 @@
+/* Inherited from some base stylesheet I found for ytmusic */
+
+html:not(.style-scope) {
+    --cust-ytmusic-play-nav-color: #{$surface}; /*#4b3e5e;*/
+    --cust-ytmusic-dark-background: #{$base}; /*#221d2b;*/
+    --cust-ytmusic-dark-foreground: #{$overlay}; /*#2e263a;*/
+
+    --cust-ytmusic-light-text-1: #{text}; /*#e2e1dd;*/
+    --cust-ytmusic-light-2: color-mix(
+        in srgb,
+        #{$text} 90%,
+        #{$muted}
+    ); /*#d0b5d9;*/
+    --cust-ytmusic-light-3: color-mix(
+        in srgb,
+        #{$text} 80%,
+        #{$muted}
+    ); /*#cbbdd3;*/
+    --cust-ytmusic-light-4: color-mix(
+        in srgb,
+        #{$text} 70%,
+        #{$muted}
+    ); /*#c1a9c685;*/
+    --cust-ytmusic-light-5: color-mix(
+        in srgb,
+        #{$text} 60%,
+        #{$muted}
+    ); /*#d0b5d9;*/
+
+    --cust-ytmusic-medium-1: #{$subtle}; /*#988b9eb8;*/
+    --cust-ytmusic-medium-2: color-mix(
+        in srgb,
+        #{$subtle} 90%,
+        #{$muted}
+    ); /*#d5d2d0;*/
+    --cust-ytmusic-medium-3: color-mix(
+        in srgb,
+        #{$subtle} 80%,
+        #{$muted}
+    ); /*#beb2c2;*/
+    --cust-ytmusic-medium-4: color-mix(
+        in srgb,
+        #{$subtle} 70%,
+        #{$muted}
+    ); /*#8d8d8d;*/
+    --cust-ytmusic-medium-5: color-mix(
+        in srgb,
+        #{$subtle} 60%,
+        #{$muted}
+    ); /*#442e4b;*/
+
+    --cust-ytmusic-subscribe-color: #{$love}; /*#9f6bcf;*/
+    --cust-ytmusic-playbutton-color: #{$rose}; /*#9e89aa;*/
+    --cust-ytmusic-tertiary-nav-button-color: #{$rose}; /*#a99cb1;*/
+    --cust-ytmusic-nowplaying-color: #{$rose}; /*#c79dee;*/
+
+    --cust-ytmusic-main-text-1: color-mix(
+        in srgb,
+        #{$text} 78%,
+        transparent
+    ); /*#ffffffc7;*/
+    --cust-ytmusic-header-text-1: color-mix(
+        in srgb,
+        #{$text} 80%,
+        transparent
+    ); /*#ffffffc9;*/
+    --cust-ytmusic-header-text-2: color-mix(
+        in srgb,
+        #{$text} 78%,
+        transparent
+    ); /*#ffffffc7;*/
+    --cust-ytmusic-progress-color: #{$rose};
+
+    --cust-ytmusic-scroll-width: 0px;
+
+    /*AGGRESSIVE AND INSENSITIVE USE OF !IMPORTANT so it works in the desktop app.
+  some commenting was attempted as I went. */
+
+    --idk-yet: inherit !important;
+
+    --ytmusic-color-black1: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black4: var(--cust-ytmusic-dark-background) !important;
+
+    --ytmusic-color-blackpure: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha0: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha10: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha60: var(--idk-yet) !important;
+
+    --ytmusic-color-grey1: var(--cust-ytmusic-light-3) !important;
+    --ytmusic-color-grey2: var(--cust-ytmusic-light-2) !important;
+    --ytmusic-color-grey3: var(--cust-ytmusic-medium-4) !important;
+    --ytmusic-color-grey4: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-grey5: var(--cust-ytmusic-medium-2) !important;
+
+    --ytmusic-color-white1: var(--cust-ytmusic-light-text-1) !important;
+    --ytmusic-color-white1-alpha10: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha15: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha20: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha30: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha50: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha70: var(--cust-ytmusic-medium-1) !important;
+
+    --ytmusic-static-brand-red: var(
+        --cust-ytmusic-light-text-1
+    ) !important; /*loadingbar*/
+
+    --yt-spec-themed-blue: var(--cust-ytmusic-light-5) !important;
+    --yt-spec-dark-blue: var(--cust-ytmusic-medium-5) !important;
+    --yt-spec-text-secondary: var(--cust-ytmusic-medium-5) !important;
+    --ytmusic-setting-item-toggle-active: var(
+        --cust-ytmusic-light-2
+    ) !important;
+
+    --ytmusic-brand-link-text: var(--idk-yet) !important;
+    --ytmusic-overlay-background-brand: var(--idk-yet) !important;
+    --ytmusic-focus-active: var(--idk-yet) !important;
+
+    --ytmusic-detail-header: var(--idk-yet) !important;
+    --ytmusic-dialog-background-color: var(
+        --cust-ytmusic-dark-background
+    ) !important;
+    --yt-spec-brand-link-text: var(--cust-ytmusic-medium-5) !important;
+
+    --ytmusic-caption-1_-_color: var(--cust-ytmusic-medium-3) !important;
+
+    --ytmusic-scrollbar-width: var(--cust-ytmusic-scroll-width) !important;
+    --ytd-scrollbar-width: var(--cust-ytmusic-scroll-width) !important;
+    --ytd-scrollbar-scrubber_-_background: var(--cust-ytmusic-dark-background);
+
+    --iron-icon-fill-color: #{$subtle} !important;
+}

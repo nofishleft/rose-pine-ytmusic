@@ -1,0 +1,13 @@
+tp-yt-iron-dropdown {
+    ytmusic-multi-page-menu-renderer {
+        background: $overlay !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        border-radius: 2px !important;
+    }
+    yt-icon.ytd-compact-link-renderer svg {
+        fill: var(--ytmusic-text-primary) !important;
+    }
+    yt-formatted-string.ytd-compact-link-renderer {
+        color: var(--ytmusic-text-primary) !important;
+    }
+}

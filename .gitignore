@@ -1,0 +1,9 @@
+.sass-cache
+
+src/rose-pine.scss
+src/rose-pine-dawn.scss
+src/rose-pine-moon.scss
+
+dist/rose-pine.css.map
+dist/rose-pine-dawn.css.map
+dist/rose-pine-moon.css.map

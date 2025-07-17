@@ -1,0 +1,110 @@
+/*
+ * Hoziontal buttons under the horizontal tabs e.g.: Playlists, Podcasts, Songs, Albums, Artists
+ * Also Playing > Up Next > Save
+ */
+
+ytmusic-chip-cloud-chip-renderer
+    > div.ytmusic-chip-cloud-chip-renderer
+    > a.ytmusic-chip-cloud-chip-renderer {
+    background-color: $overlay !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: $text !important;
+    fill: $text !important;
+}
+ytmusic-chip-cloud-chip-renderer
+    > div.ytmusic-chip-cloud-chip-renderer
+    > a.ytmusic-chip-cloud-chip-renderer:hover {
+    background-color: color-mix(in srgb, $overlay 95%, white) !important;
+}
+
+/* Sort by: Recent activity, Recently saved, Recently played */
+ytmusic-sort-filter-button-renderer
+    > button.ytmusic-sort-filter-button-renderer {
+    background-color: $overlay !important;
+    color: $text !important;
+}
+
+ytmusic-sort-filter-button-renderer
+    > button.ytmusic-sort-filter-button-renderer:hover {
+    background-color: color-mix(in srgb, $overlay 95%, white) !important;
+}
+
+/* Playing > Up Next > Auto play > subtitle */
+div.autoplay > div > div.subtitle {
+    color: $muted !important;
+}
+
+/* Toggle button (e.g. toggle autoplay) */
+tp-yt-paper-toggle-button .toggle-bar {
+    background-color: $muted !important;
+}
+
+tp-yt-paper-toggle-button[checked]:not([disabled]) .toggle-bar {
+    background-color: $rose !important;
+}
+
+tp-yt-paper-toggle-button .toggle-button {
+    background-color: $subtle !important;
+}
+
+tp-yt-paper-toggle-button[checked]:not([disabled]) .toggle-button {
+    background-color: $rose !important;
+}
+
+/* Volume hud over video/album art, e.g.: '54%' */
+ytmusic-player > #volumeHud {
+    color: var(--rose-pine-text) !important;
+}
+
+yt-button-renderer.play-button button.yt-spec-button-shape-next--filled {
+    background-color: var(--rose-pine-base) !important;
+    border: 1px solid var(--rose-pine-rose) !important;
+    color: var(--rose-pine-rose) !important;
+}
+
+yt-button-renderer.play-button button.yt-spec-button-shape-next--filled:hover {
+    background-color: var(--rose-pine-overlay) !important;
+    transition-duration: 0.2s;
+}
+
+yt-button-renderer.radio-button button.yt-spec-button-shape-next--filled {
+    background-color: var(--rose-pine-base) !important;
+    border: 1px solid var(--rose-pine-rose) !important;
+    color: var(--rose-pine-rose) !important;
+}
+
+yt-button-renderer.radio-button button.yt-spec-button-shape-next--filled:hover {
+    background-color: var(--rose-pine-overlay) !important;
+    transition-duration: 0.2s;
+}
+
+ytmusic-subscribe-button-renderer.subscribe
+    > yt-button-shape#button-shape-subscribe[aria-label="Subscribe to this channel."]
+    > button.yt-spec-button-shape-next {
+    /* background-color: var(--rose-pine-base) !important;
+    border: 1px solid var(--rose-pine-love) !important;
+    color: var(--rose-pine-love) !important; */
+    background-color: var(--rose-pine-base) !important;
+}
+
+ytmusic-subscribe-button-renderer.subscribe
+    > yt-button-shape#button-shape-subscribe[aria-label="Subscribe to this channel."]
+    > button.yt-spec-button-shape-next:hover {
+    /* background-color: var(--rose-pine-love) !important; */
+    /* border: 1px solid var(--rose-pine-base) !important; */
+    /* color: var(--rose-pine-base) !important; */
+
+    background-color: var(--ytmusic-subscribe-button-outline-color) !important;
+    border-color: var(--rose-pine-base) !important;
+    color: var(--rose-pine-base) !important;
+
+    transition-duration: 0.2s;
+}
+
+/* Horizontal bar above active playlist: Up Next, Lyrics, Related */
+tp-yt-paper-tab.ytmusic-player-page {
+    color: var(--rose-pine-subtle) !important;
+}
+tp-yt-paper-tab.ytmusic-player-page.iron-selected {
+    color: var(--rose-pine-text) !important;
+}
